@@ -1,0 +1,46 @@
+.container{
+    margin-top: 100px;
+    width: 100%;
+   
+}
+
+.filter{
+  width: 20%;
+  margin-left: 4.1%;
+}
+.booksdiv{
+    display: grid;
+    /* border: 2px solid black; */
+    width: 100%;
+    grid-template-columns: repeat(4,20%);
+    /* grid-gap: 4%; */
+    column-gap: 4%;
+    row-gap: 3%;
+    margin-top: 70px;
+    justify-content: center !important;
+    align-items: center;
+}
+.booksdiv>div{
+    height: 310px;
+    width: 280px;
+    border: 2px solid #DADADA;
+    line-height: 12px;
+    padding: 2%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.booksdiv>div>img{
+    height: 80%;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.booksdiv>div>p{
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.booksdiv>div>p>span{
+    font-weight: 500;
+}
+   

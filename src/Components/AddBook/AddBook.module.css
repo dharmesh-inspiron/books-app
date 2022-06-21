@@ -1,0 +1,15 @@
+
+
+.addbox{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.addNewBookBtn{
+    transform: translateX(70px);
+    cursor: pointer;
+}
+.cancelNewBookBtn{
+    transform: translate(80px);
+}

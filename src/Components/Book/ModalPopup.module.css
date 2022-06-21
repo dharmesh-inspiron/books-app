@@ -1,0 +1,40 @@
+
+#popbox{
+    display: flex;
+    margin-bottom: 20px;
+}
+#popbox>button{
+    height: 30px;
+    width: 40px;
+    margin-left: 16%;
+   border: none;
+   font-size: 25px;
+   margin-top: -6%;
+   background: white;
+}
+#popbox>button:hover{
+   background-color: rgb(184, 12, 12);
+   color: white;
+}
+.updatediv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.updatediv>button:nth-child(1){
+    background-color:rgb(12, 184, 118);
+    color:white ;
+    padding: 1.5% 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.updatediv>button:nth-child(2){
+    background-color:red;
+    color:white ;
+    padding: 2% 5%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
